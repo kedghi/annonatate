@@ -1,0 +1,22 @@
+---
+canvas: "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN874016983/canvas/gdz:PPN874016983:00000001"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN874016983/canvas/gdz:PPN874016983:00000001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:288.5511169433594,457.061767578125,428.5276794433594,124.185546875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN874016983/manifest?version=r3rpa",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e1c7f45b-8748-4b6d-90aa-c26ba7cae823.json"
+}
