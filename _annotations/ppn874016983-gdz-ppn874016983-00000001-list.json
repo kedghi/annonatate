@@ -1,9 +1,0 @@
----
-canvas_id: "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN874016983/canvas/gdz:PPN874016983:00000001"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
-{
-"@context": "http://iiif.io/api/presentation/2/context.json",
-"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
-"type": "AnnotationPage",
-"items": [{{ annotations | join: ","}}] }
